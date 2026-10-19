@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>OcaNew</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel="alternate" type="application/rss+xml" title="Dòng thông tin OcaNew &raquo;" href="http://localhost/sua/feed" />
+<link rel="alternate" title="oNhúng (JSON)" type="application/json+oembed" href="http://localhost/sua/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fsua%2F" />
+<link rel="alternate" title="oNhúng (XML)" type="text/xml+oembed" href="http://localhost/sua/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fsua%2F&#038;format=xml" />
+<link rel="canonical" href="http://localhost/sua/" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='font-awesome-css' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css?ver=6.5.0' media='all' />
+<link rel='stylesheet' id='caia-css' href='http://localhost/sua/wp-content/themes/OcaNew/style.css?ver=1792392914' media='all' />
+<link rel='stylesheet' id='oca-home-landing-css' href='http://localhost/sua/wp-content/themes/OcaNew/assets/css/landing.css?ver=1792400796' media='all' />
+<script id="jquery-core-js" src="http://localhost/sua/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="http://localhost/sua/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="caia-slick-js" src="http://localhost/sua/wp-content/themes/OcaNew/custom/js/slick.js?ver=7.0"></script>
+<script type="text/javascript">function setCookie(e,t,o){if(0!=o){var i=new Date;i.setTime(i.getTime()+24*o*60*60*1e3);var n="expires="+i.toUTCString();document.cookie=e+"="+t+";"+n+";path=/"}else document.cookie=e+"="+t+";path=/"}function getCookie(e){for(var t=e+"=",o=document.cookie.split(";"),i=0;i<o.length;i++){for(var n=o[i];" "==n.charAt(0);)n=n.substring(1);if(0==n.indexOf(t))return n.substring(t.length,n.length)}return""}</script><link rel="https://api.w.org/" href="http://localhost/sua/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="http://localhost/sua/wp-json/wp/v2/pages/6" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/sua/xmlrpc.php?rsd" />
+
+<link rel='shortlink' href='http://localhost/sua/' />
+<link rel="icon" href="http://localhost/sua/wp-content/themes/genesis/images/favicon.ico" />
+<meta itemprop="name" content="OcaNew" />
+<meta itemprop="url" content="http://localhost/sua/" />
+<style type="text/css">div#toc_container {width: 97%;}</style><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' />    <link rel="icon" type="image/svg+xml" href="http://localhost/sua/wp-content/themes/OcaNew/assets/images/taxi/favicon-xanh-go.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://localhost/sua/wp-content/themes/OcaNew/assets/images/taxi/favicon-xanh-go-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="http://localhost/sua/wp-content/themes/OcaNew/assets/images/taxi/favicon-xanh-go-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="http://localhost/sua/wp-content/themes/OcaNew/assets/images/taxi/favicon-xanh-go-512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://localhost/sua/wp-content/themes/OcaNew/assets/images/taxi/favicon-xanh-go-180.png">
+    <meta name="theme-color" content="#28bdbf">
+    </head>
+<body class="home wp-singular page-template page-template-page-home-landing page-template-page-home-landing-php page page-id-6 wp-theme-genesis wp-child-theme-OcaNew oca-home-landing header-full-width content-sidebar genesis-breadcrumbs-hidden">
+<a class="oca-skip" href="#oca-main">Đi đến nội dung</a>
+<header class="oca-header">
+    <div class="oca-topbar">
+        <div class="oca-container oca-topbar__inner">
+                            <span class="oca-topbar__item oca-topbar__item--location">
+                                            <svg class="oca-topbar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-7 8-14a8 8 0 1 0-16 0c0 7 8 14 8 14Z M12 5a3 3 0 1 0 0 6 3 3 0 0 0 0-6"/></svg>
+                                        <span>Việt Nam</span>
+                </span>
+                            <a class="oca-topbar__item oca-topbar__item--email" href="mailto:contact@ocanew.vn">
+                                            <svg class="oca-topbar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h18v14H3Z M3 5l9 8 9-8"/></svg>
+                                        <span>contact@ocanew.vn</span>
+                </a>
+                            <span class="oca-topbar__item oca-topbar__item--support">
+                                            <svg class="oca-topbar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 14v-3a7 7 0 0 1 14 0v3 M5 11H3v7h4v-7Z M19 11h2v7h-4v-7Z M19 18v3h-7"/></svg>
+                                        <span>Hỗ trợ khách hàng</span>
+                </span>
+                            <span class="oca-topbar__item oca-topbar__item--document">
+                                            <svg class="oca-topbar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 2h9l5 5v15H5Z M14 2v6h5 M8 12h8 M8 16h8"/></svg>
+                                        <span>Tài liệu</span>
+                </span>
+                    </div>
+    </div>
+    <div class="oca-container oca-header__inner">
+        <a class="oca-logo" href="http://localhost/sua/" aria-label="OcaNew nut — Trang chủ">
+            <img width="1440" height="569" src="http://localhost/sua/wp-content/uploads/2026/10/orcar-new-22-cv-03.png" class="oca-logo__image" alt="OcaNew nut" loading="eager" decoding="async" fetchpriority="high" />        </a>
+        <button class="oca-menu-toggle" type="button" aria-controls="oca-navigation" aria-expanded="false" aria-label="Mở menu" hidden><span></span><span></span><span></span></button>
+        <nav id="oca-navigation" class="oca-navigation" aria-label="Điều hướng chính">
+            <ul class="oca-menu"><li class="current-menu-item"><a href="http://localhost/sua/" aria-current="page">Trang chủ</a></li><li><a href="http://localhost/sua/san-pham/">Sản phẩm</a></li><li><a href="http://localhost/sua/thanh-phan/">Thành phần</a></li><li><a href="http://localhost/sua/ve-ocanew-nut/">Về OcaNew nut</a></li><li><a href="http://localhost/sua/kien-thuc-dinh-duong/">Kiến thức dinh dưỡng</a></li><li><a href="http://localhost/sua/cau-hoi-thuong-gap/">Câu hỏi thường gặp</a></li></ul>        </nav>
+    </div>
+</header>
+<main id="oca-main" class="oca-main" tabindex="-1">
+            <section class="oca-hero oca-hero--with-background oca-hero--brand-background" aria-labelledby="oca-hero-title">
+            <img class="oca-hero__background" src="http://localhost/sua/wp-content/themes/OcaNew/assets/images/banner/oca-hero-warm-kitchen-v2.webp" width="2171" height="724" alt="" aria-hidden="true" loading="eager" fetchpriority="high">
+        <div class="oca-hero__milk" aria-hidden="true"></div>
+    <div class="oca-container oca-hero__inner">
+        <div class="oca-hero__copy">
+            <p class="oca-hero__eyebrow">OCANEW NUT</p>            <h1 id="oca-hero-title" class="oca-hero__title">
+                Dinh dưỡng mỗi ngày,                <span>trọn vẹn yêu thương.</span>            </h1>
+            <p class="oca-hero__description">Cùng OcaNew nut tìm hiểu và lựa chọn sản phẩm dinh dưỡng phù hợp cho bạn và gia đình.</p>                            <a class="oca-button" href="http://localhost/sua/">Khám phá sản phẩm<span class="oca-button__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></a>
+                    </div>
+                    <div class="oca-hero__visual">
+                <img width="2560" height="2137" src="http://localhost/sua/wp-content/uploads/2026/10/4-scaled.png" class="oca-hero__product" alt="" loading="eager" fetchpriority="high" sizes="(max-width: 760px) 90vw, (max-width: 1320px) 48vw, 620px" decoding="async" />            </div>
+            </div>
+</section>
+        <section id="ve-chung-toi" class="oca-about" aria-label="Về OcaNew nut">
+    <div class="oca-container oca-about__inner">
+        <div class="oca-about__copy">
+            <h2 class="oca-section-title">Về OcaNew nut</h2>            <h3 class="oca-about__subtitle">Dinh dưỡng từ thiên nhiên<br />
+Cho cuộc sống tốt đẹp hơn</h3>            <div class="oca-about__description"><p>OcaNew nut đồng hành cùng bạn trong việc tìm hiểu và lựa chọn sản phẩm dinh dưỡng phù hợp cho gia đình. Khám phá câu chuyện thương hiệu, thông tin sản phẩm và những giá trị mà OcaNew nut hướng đến.</p>
+</div>                    </div>
+                    <div class="oca-about__visual oca-about__visual--product">
+                <img width="2560" height="2137" src="http://localhost/sua/wp-content/uploads/2026/10/4-scaled.png" class="oca-about__image" alt="" loading="lazy" sizes="auto, (max-width: 760px) 100vw, (max-width: 1320px) 56vw, 720px" decoding="async" />            </div>
+            </div>
+</section>
+        <div class="oca-content oca-container"></div>
+    </main>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/sua/*"},{"not":{"href_matches":["/sua/wp-*.php","/sua/wp-admin/*","/sua/wp-content/uploads/*","/sua/wp-content/*","/sua/wp-content/plugins/*","/sua/wp-content/themes/OcaNew/*","/sua/wp-content/themes/genesis/*","/sua/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script>
+	jQuery(document).ready(function () {
+	    jQuery('body').bind('cut copy paste', function (e) { e.preventDefault(); });	    
+	    jQuery("body").on("contextmenu",function(e){ return false; });
+	});
+</script>
+			<script type="module">
+      import "https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js";
+    </script><script id="oca-home-landing-js" src="http://localhost/sua/wp-content/themes/OcaNew/assets/js/landing.js?ver=1792396595"></script>
+</body>
+</html>

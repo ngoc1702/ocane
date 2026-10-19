@@ -1,0 +1,562 @@
+body.oca-home-landing {
+  --oca-primary: #1765ad;
+  --oca-accent: #ffc53d;
+  --oca-container: 1280px;
+  --oca-gutter: clamp(14px, 2vw, 24px);
+  background: #fff !important;
+  color: #252525;
+}
+.oca-home-landing .oca-container {
+  width: min(var(--oca-container), calc(100% - var(--oca-gutter) * 2));
+  margin-inline: auto;
+}
+.oca-header {
+  position: relative;
+  z-index: 50;
+  background: #fff;
+  box-shadow: 0 1px 5px #142b4510;
+}
+.oca-topbar {
+  background: var(--oca-primary);
+  color: #fff;
+}
+.oca-topbar__inner {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  min-height: 34px;
+}
+.oca-header .oca-topbar__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding-block: 7px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+.oca-topbar__item--support {
+  margin-left: auto;
+}
+.oca-topbar__icon {
+  flex: 0 0 15px;
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+}
+.oca-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+  min-height: 82px;
+}
+.oca-header .oca-logo {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  color: var(--oca-primary);
+  text-decoration: none;
+  line-height: 1;
+}
+.oca-logo__image {
+  display: block;
+  width: auto;
+  max-width: 195px;
+  height: auto;
+  max-height: 65px;
+  object-fit: contain;
+}
+.oca-logo__word {
+  font:
+    bold 42px/1 Georgia,
+    serif;
+  letter-spacing: -2px;
+}
+.oca-logo__nut {
+  display: inline-block;
+  padding: 6px 3px;
+  border: 2px solid var(--oca-accent);
+  border-radius: 2px 2px 12px 12px;
+  background: var(--oca-accent);
+  color: var(--oca-primary);
+  font:
+    bold 15px/1 Arial,
+    sans-serif;
+  transform: rotate(-8deg);
+}
+.oca-navigation {
+  flex: 1;
+  min-width: 0;
+}
+.oca-header .oca-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.oca-menu li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.oca-header .oca-menu a {
+  position: relative;
+  display: block;
+  padding: 29px 0;
+  color: #252525;
+  font-size: 11px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.oca-header .oca-menu a:hover,
+.oca-header .oca-menu .current-menu-item > a,
+.oca-header .oca-menu .current-menu-ancestor > a {
+  color: var(--oca-primary);
+}
+.oca-menu > .current-menu-item > a::after,
+.oca-menu > .current-menu-ancestor > a::after {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--oca-accent);
+}
+.oca-header .oca-menu .sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 210px;
+  margin: 0;
+  padding: 8px 16px;
+  background: #fff;
+  box-shadow: 0 5px 20px #132c4726;
+}
+.oca-header .sub-menu a {
+  padding: 8px 0;
+}
+.oca-menu li:hover > .sub-menu,
+.oca-menu li:focus-within > .sub-menu {
+  display: block;
+}
+.oca-menu > li:last-child > .sub-menu {
+  left: auto;
+  right: 0;
+}
+.oca-header .oca-menu-toggle {
+  display: none;
+}
+.oca-header a:focus-visible,
+.oca-header button:focus-visible {
+  outline: 2px solid var(--oca-accent);
+  outline-offset: 4px;
+}
+.oca-skip {
+  position: absolute;
+  left: 12px;
+  top: -100px;
+  z-index: 99999;
+  padding: 10px 16px;
+  background: #fff;
+  color: var(--oca-primary);
+}
+.oca-skip:focus {
+  top: 12px;
+}
+.oca-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: #f6eddd;
+  color: var(--oca-primary);
+}
+.oca-hero__background {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.oca-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(90deg, #fff9eee6, #fff9ee80 42%, transparent 65%);
+  pointer-events: none;
+}
+.oca-hero__milk {
+  position: absolute;
+  z-index: 0;
+  inset: auto 0 -1px;
+  height: clamp(100px, 14vw, 440px);
+  max-height: 100%;
+  background: url("../../images/slides-1.png") center bottom / 100% 100% no-repeat;
+  -webkit-mask-image: linear-gradient(to bottom, transparent, #000 12%);
+  mask-image: linear-gradient(to bottom, transparent, #000 12%);
+  pointer-events: none;
+}
+.oca-hero__inner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(24px, 3vw, 40px);
+  align-items: center;
+  min-height: clamp(700px, 45vw, 880px);
+  padding-block: 64px 120px;
+}
+.oca-hero__copy {
+  position: relative;
+  max-width: 600px;
+  padding-block: 24px;
+}
+.oca-hero .oca-hero__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 20px;
+  color: var(--oca-accent);
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+}
+.oca-hero--brand-background::before {
+  background: linear-gradient(90deg, #fff9ee80, #fff9ee26 42%, transparent 62%);
+}
+.oca-hero .oca-hero__title {
+  margin: 0 0 24px;
+  color: var(--oca-primary);
+  font-size: clamp(36px, 3.3vw, 54px);
+  line-height: 1.16;
+  font-weight: 800;
+  letter-spacing: -1.4px;
+  text-wrap: balance;
+}
+.oca-hero__title span {
+  display: block;
+  margin-top: 8px;
+  color: var(--oca-primary);
+}
+.oca-hero .oca-hero__description {
+  max-width: 480px;
+  margin: 0 0 32px;
+  color: #234464;
+  font-size: 17px;
+  line-height: 1.75;
+  font-weight: 500;
+}
+.oca-home-landing .oca-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  min-height: 44px;
+  max-width: 100%;
+  padding: 3px 3px 3px 24px;
+  border: 1px solid var(--oca-primary);
+  border-radius: 999px;
+  background: var(--oca-primary);
+  color: #fff;
+  box-shadow: none;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background .2s, color .2s, box-shadow .2s, transform .2s;
+}
+.oca-button__icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 36px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #fff;
+  color: #152b3e;
+}
+.oca-button__icon svg {
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+.oca-home-landing .oca-button:hover {
+  border-color: #104f8b;
+  background: #104f8b;
+  color: #fff;
+  box-shadow: 0 5px 14px #1765ad26;
+  transform: translateY(-2px);
+}
+.oca-home-landing .oca-button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+.oca-button:focus-visible {
+  outline: 2px solid var(--oca-primary);
+  outline-offset: 5px;
+}
+.oca-hero__visual {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  transform: translateY(16px);
+}
+.oca-hero__visual::after {
+  content: "";
+  position: absolute;
+  left: 18%;
+  right: 12%;
+  bottom: 4%;
+  height: 5%;
+  border-radius: 50%;
+  background: #63432140;
+  filter: blur(10px);
+  pointer-events: none;
+}
+.oca-hero__product {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  max-height: 540px;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 10px #6343211f);
+}
+.oca-hero__inner--text-only {
+  grid-template-columns: 1fr;
+}
+.oca-content {
+  padding-block: 32px;
+}
+.oca-content:empty {
+  display: none;
+}
+.oca-content p {
+  margin-bottom: 1em;
+}
+.oca-about {
+  padding-block: clamp(40px, 5vw, 80px);
+  background: #fff;
+}
+.oca-about__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  align-items: center;
+  gap: clamp(28px, 4vw, 64px);
+}
+.oca-home-landing .oca-section-title {
+  position: relative;
+  margin: 0 0 24px;
+  padding-bottom: 18px;
+  color: var(--oca-primary);
+  font-size: clamp(26px, 2.5vw, 36px);
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.6px;
+  text-transform: uppercase;
+}
+.oca-section-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 64px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--oca-accent);
+}
+.oca-home-landing .oca-about__subtitle {
+  margin: 0 0 16px;
+  color: var(--oca-primary);
+  font-size: clamp(18px, 1.6vw, 23px);
+  line-height: 1.45;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.oca-about__description {
+  margin-bottom: 26px;
+}
+.oca-about__description p {
+  margin: 0 0 14px;
+  color: #234464;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.oca-about__description p:last-child {
+  margin-bottom: 0;
+}
+.oca-about__visual {
+  overflow: hidden;
+  border-radius: 12px;
+  background: #f6eddd;
+}
+.oca-about__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.oca-about__visual--product {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 3 / 2;
+  padding: 24px;
+  background: #f6eddd url("../images/banner/oca-hero-warm-kitchen-v2.webp") center / cover no-repeat;
+}
+.oca-about__visual--product .oca-about__image {
+  width: 76%;
+  max-height: 400px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 10px #63432126);
+}
+/* Responsive rules are grouped here: tablet/navigation, then mobile. */
+@media (max-width: 1100px) {
+  .oca-header__inner {
+    flex-wrap: wrap;
+    gap: 0;
+    min-height: 76px;
+    padding-block: 10px;
+  }
+  .oca-header--interactive .oca-menu-toggle:not([hidden]) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    border: 1px solid #dce2e8;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+  }
+  .oca-menu-toggle span {
+    display: block;
+    height: 2px;
+    width: 22px;
+    background: var(--oca-primary);
+    transition: transform 0.15s;
+  }
+  .oca-header--open .oca-menu-toggle span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  .oca-header--open .oca-menu-toggle span:nth-child(2) {
+    opacity: 0;
+  }
+  .oca-header--open .oca-menu-toggle span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+  .oca-navigation {
+    flex: 0 0 100%;
+    padding-top: 12px;
+  }
+  .oca-header--interactive .oca-navigation {
+    display: none;
+  }
+  .oca-header--open .oca-navigation {
+    display: block;
+  }
+  .oca-header .oca-menu {
+    display: block;
+  }
+  .oca-header .oca-menu a {
+    padding: 10px 0;
+    font-size: 12px;
+  }
+  .oca-menu > .current-menu-item > a::after,
+  .oca-menu > .current-menu-ancestor > a::after {
+    bottom: 5px;
+    right: auto;
+    width: 40px;
+  }
+  .oca-header .oca-menu .sub-menu {
+    display: block;
+    position: static;
+    padding: 0 0 0 18px;
+    box-shadow: none;
+  }
+  .oca-logo__image {
+    max-height: 55px;
+  }
+}
+@media (max-width: 760px) {
+  .oca-about__inner {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .oca-about__description p {
+    font-size: 15px;
+  }
+  .oca-hero__inner {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    min-height: auto;
+    padding-block: 32px 64px;
+  }
+  .oca-hero__copy {
+    max-width: 100%;
+    padding-block: 0;
+  }
+  .oca-hero .oca-hero__title {
+    font-size: clamp(32px, 7vw, 44px);
+    letter-spacing: -.8px;
+  }
+  .oca-hero .oca-hero__description {
+    font-size: 15px;
+  }
+  .oca-hero__product {
+    width: min(100%, 420px);
+    max-height: 380px;
+  }
+  .oca-hero__visual {
+    transform: none;
+  }
+  .oca-hero__background {
+    object-position: 65% center;
+  }
+  .oca-hero--with-background::before {
+    background: linear-gradient(180deg, #fff9eef2 0%, #fff9eecc 45%, #fff9ee26 78%);
+  }
+  .oca-topbar__inner {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0 12px;
+    padding-block: 4px;
+  }
+  .oca-header .oca-topbar__item {
+    font-size: 10px;
+    padding-block: 4px;
+  }
+  .oca-topbar__item--support {
+    margin-left: 0;
+  }
+  .oca-logo__word {
+    font-size: 36px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .oca-home-landing {
+    scroll-behavior: auto;
+  }
+  .oca-menu-toggle span {
+    transition: none;
+  }
+  .oca-home-landing .oca-button {
+    transition: none;
+  }
+}

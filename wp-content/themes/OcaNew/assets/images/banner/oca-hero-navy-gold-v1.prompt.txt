@@ -1,0 +1,7 @@
+Generated using the built-in image_gen tool.
+
+Use case: ads-marketing. Asset type: BACKGROUND ONLY for a premium OcaNew nut nutrition product website hero. Generate a wide landscape 3:1 background, ideally 1920x640. Palette deep navy #132C47 and muted champagne gold #C6A365. Composition: left 52 percent is clean dark navy negative space for white and gold heading and a CTA overlaid in HTML, keep this very quiet. Right side has elegant diffused warm golden studio backlight centered at 73% width and 50% height, soft luminous halo and delicate flowing silk-like gold ribbons around the FAR lower right and outer edges, tiny sparse gold dust only on the right, a subtle dark navy reflective surface along bottom. Premium nutritional product advertising aesthetic, understated, sophisticated, realistic cinematic studio backdrop. The existing actual gold nutrition tin and milk glass will be composited separately in HTML on the right, so DO NOT generate any tin, product, glass, food, nuts, packaging, text, logo, letters, badge, watermark, UI or buttons. Entire background opaque, no checkerboard. Ensure left text region stays dark and smooth; brightest gold is behind the product area but not white.
+
+Original output: oca-hero-navy-gold-v1.png (2172 x 724).
+Web asset: oca-hero-navy-gold-v1.webp (WebP quality 88).
+The template uses this asset when the ACF background image field is empty.

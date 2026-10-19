@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="186" height="52" viewBox="0 0 186 52" role="img" aria-labelledby="title desc">
+  <title id="title">Xanh Go</title>
+  <desc id="desc">Biểu tượng taxi điện màu xanh và chữ Xanh Go</desc>
+  <rect x="2" y="2" width="48" height="48" rx="14" fill="#28bdbf"/>
+  <g fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13.5 31.5h25l-2.8-11a3 3 0 0 0-2.9-2.3H20a3 3 0 0 0-2.9 2.3l-3.6 11Z"/>
+    <path d="M16.5 26.5h20M18.2 18.6l2.2 7.9m14.2-7.9-2.2 7.9M13.5 31.5v5m25-5v5"/>
+    <circle cx="19" cy="32.5" r="2.1"/><circle cx="33" cy="32.5" r="2.1"/>
+    <path d="M25 16.2c2.4-2.6 5.2-3.3 7.7-3.4-.7 2.8-2.3 5.2-5.7 6.1"/>
+  </g>
+  <text x="61" y="34.5" fill="#071d2c" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800" letter-spacing="-1">Xanh Go</text>
+</svg>
