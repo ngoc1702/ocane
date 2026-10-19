@@ -34,6 +34,15 @@ function oca_home_text($name, $default = '') {
     return is_string($value) ? $value : $default;
 }
 
+function oca_home_preparation_steps() {
+    return array(
+        array('title' => 'Cho bột vào ly', 'description' => 'Cho lượng bột OcaNew nut theo hướng dẫn trên bao bì vào ly sạch.'),
+        array('title' => 'Thêm nước ấm', 'description' => 'Thêm nước theo lượng và nhiệt độ được hướng dẫn trên bao bì.'),
+        array('title' => 'Khuấy đều', 'description' => 'Khuấy nhẹ cho bột tan đều hoàn toàn.'),
+        array('title' => 'Thưởng thức', 'description' => 'Thưởng thức ly dinh dưỡng sau khi pha.'),
+    );
+}
+
 function oca_home_top_items() {
     return array(
         'location' => array('label' => 'Việt Nam', 'url' => '', 'path' => 'M12 22s8-7 8-14a8 8 0 1 0-16 0c0 7 8 14 8 14Z M12 5a3 3 0 1 0 0 6 3 3 0 0 0 0-6'),
@@ -79,6 +88,22 @@ add_action('acf/init', function () {
     $fields[] = array('key' => 'field_oca_about_description', 'name' => 'oca_about_description', 'label' => 'Nội dung giới thiệu', 'type' => 'textarea', 'rows' => 5, 'default_value' => 'OcaNew nut đồng hành cùng bạn trong việc tìm hiểu và lựa chọn sản phẩm dinh dưỡng phù hợp cho gia đình. Khám phá câu chuyện thương hiệu, thông tin sản phẩm và những giá trị mà OcaNew nut hướng đến.');
     $fields[] = array('key' => 'field_oca_about_button', 'name' => 'oca_about_button', 'label' => 'Chữ trên nút', 'type' => 'text', 'default_value' => 'Tìm hiểu thêm');
     $fields[] = array('key' => 'field_oca_about_link', 'name' => 'oca_about_link', 'label' => 'Liên kết tìm hiểu thêm', 'type' => 'link', 'return_format' => 'array', 'instructions' => 'Chọn trang giới thiệu hoặc nhập URL. Nút hiển thị khi có cả liên kết và chữ trên nút.');
+    $fields[] = array('key' => 'field_oca_preparation_tab', 'label' => 'Quy trình pha', 'type' => 'tab');
+    $fields[] = array('key' => 'field_oca_preparation_background', 'name' => 'oca_preparation_background', 'label' => 'Ảnh nền quy trình', 'type' => 'image', 'return_format' => 'id', 'preview_size' => 'medium', 'library' => 'all', 'instructions' => 'Ảnh ngang khoảng 1920 × 700px. Để trống dùng màu xanh chủ đạo.');
+    $fields[] = array('key' => 'field_oca_preparation_overlay', 'name' => 'oca_preparation_overlay', 'label' => 'Độ phủ xanh trên ảnh nền', 'type' => 'range', 'min' => 0, 'max' => 100, 'step' => 5, 'default_value' => 75, 'append' => '%', 'instructions' => 'Tăng để chữ trắng dễ đọc trên nền nhiều chi tiết.');
+    $fields[] = array('key' => 'field_oca_preparation_eyebrow', 'name' => 'oca_preparation_eyebrow', 'label' => 'Dòng chữ nhỏ', 'type' => 'text', 'default_value' => 'Quy trình pha OcaNew');
+    $fields[] = array('key' => 'field_oca_preparation_title', 'name' => 'oca_preparation_title', 'label' => 'Tiêu đề quy trình', 'type' => 'text', 'default_value' => '4 bước đơn giản cho ly dinh dưỡng thơm ngon');
+    foreach (oca_home_preparation_steps() as $index => $step) {
+        $prefix = 'oca_preparation_step_' . ($index + 1);
+        $fields[] = array(
+            'key' => 'field_' . $prefix, 'name' => $prefix, 'label' => 'Bước ' . ($index + 1), 'type' => 'group', 'layout' => 'block',
+            'sub_fields' => array(
+                array('key' => 'field_' . $prefix . '_image', 'name' => 'image', 'label' => 'Ảnh minh họa', 'type' => 'image', 'return_format' => 'id', 'preview_size' => 'medium', 'library' => 'all', 'instructions' => 'Ảnh ngang khoảng 800 × 450px.', 'wrapper' => array('width' => '30')),
+                array('key' => 'field_' . $prefix . '_title', 'name' => 'title', 'label' => 'Tên bước', 'type' => 'text', 'default_value' => $step['title'], 'wrapper' => array('width' => '30')),
+                array('key' => 'field_' . $prefix . '_description', 'name' => 'description', 'label' => 'Nội dung', 'type' => 'textarea', 'rows' => 3, 'default_value' => $step['description'], 'wrapper' => array('width' => '40')),
+            ),
+        );
+    }
     acf_add_local_field_group(array(
         'key' => 'group_oca_home_landing', 'title' => 'OcaNew — Cấu hình trang chủ LDP', 'fields' => $fields,
         'location' => array(array(array('param' => 'page_template', 'operator' => '==', 'value' => 'page-home-landing.php'))),

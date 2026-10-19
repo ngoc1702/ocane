@@ -31,6 +31,7 @@ if (is_object($caia_social)) {
     <?php while (have_posts()) : the_post(); ?>
         <?php get_template_part('template-parts/home-banner'); ?>
         <?php get_template_part('template-parts/home-about'); ?>
+        <?php get_template_part('template-parts/home-preparation'); ?>
         <div class="oca-content oca-container"><?php the_content(); ?></div>
     <?php endwhile; ?>
 </main>

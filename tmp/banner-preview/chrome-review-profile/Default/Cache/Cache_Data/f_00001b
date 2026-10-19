@@ -26,7 +26,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
 <link rel='stylesheet' id='font-awesome-css' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css?ver=6.5.0' media='all' />
 <link rel='stylesheet' id='caia-css' href='http://localhost/sua/wp-content/themes/OcaNew/style.css?ver=1792392914' media='all' />
-<link rel='stylesheet' id='oca-home-landing-css' href='http://localhost/sua/wp-content/themes/OcaNew/assets/css/landing.css?ver=1792400796' media='all' />
+<link rel='stylesheet' id='oca-home-landing-css' href='http://localhost/sua/wp-content/themes/OcaNew/assets/css/landing.css?ver=1792403598' media='all' />
 <script id="jquery-core-js" src="http://localhost/sua/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
 <script id="jquery-migrate-js" src="http://localhost/sua/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
 <script id="caia-slick-js" src="http://localhost/sua/wp-content/themes/OcaNew/custom/js/slick.js?ver=7.0"></script>
@@ -101,6 +101,50 @@ Cho cuộc sống tốt đẹp hơn</h3>            <div class="oca-about__descr
                     <div class="oca-about__visual oca-about__visual--product">
                 <img width="2560" height="2137" src="http://localhost/sua/wp-content/uploads/2026/10/4-scaled.png" class="oca-about__image" alt="" loading="lazy" sizes="auto, (max-width: 760px) 100vw, (max-width: 1320px) 56vw, 720px" decoding="async" />            </div>
             </div>
+</section>
+        <section id="cach-pha" class="oca-preparation" aria-label="4 bước đơn giản cho ly dinh dưỡng thơm ngon" style="--oca-preparation-overlay: 0.75;">
+        <div class="oca-container oca-preparation__inner">
+        <div class="oca-preparation__heading">
+            <p class="oca-preparation__eyebrow">Quy trình pha OcaNew</p>            <h2 class="oca-preparation__title">4 bước đơn giản cho ly dinh dưỡng thơm ngon</h2>        </div>
+        <ol class="oca-preparation__steps">
+                            <li class="oca-preparation__step">
+                    <div class="oca-preparation__media oca-preparation__media--empty" aria-hidden="true">
+                                            </div>
+                    <div class="oca-preparation__detail">
+                        <span class="oca-preparation__number" aria-hidden="true">01</span>
+                        <div class="oca-preparation__copy">
+                            <h3>Cho bột vào ly</h3>                            <p>Cho lượng bột OcaNew nut theo hướng dẫn trên bao bì vào ly sạch.</p>                        </div>
+                    </div>
+                </li>
+                            <li class="oca-preparation__step">
+                    <div class="oca-preparation__media oca-preparation__media--empty" aria-hidden="true">
+                                            </div>
+                    <div class="oca-preparation__detail">
+                        <span class="oca-preparation__number" aria-hidden="true">02</span>
+                        <div class="oca-preparation__copy">
+                            <h3>Thêm nước ấm</h3>                            <p>Thêm nước theo lượng và nhiệt độ được hướng dẫn trên bao bì.</p>                        </div>
+                    </div>
+                </li>
+                            <li class="oca-preparation__step">
+                    <div class="oca-preparation__media oca-preparation__media--empty" aria-hidden="true">
+                                            </div>
+                    <div class="oca-preparation__detail">
+                        <span class="oca-preparation__number" aria-hidden="true">03</span>
+                        <div class="oca-preparation__copy">
+                            <h3>Khuấy đều</h3>                            <p>Khuấy nhẹ cho bột tan đều hoàn toàn.</p>                        </div>
+                    </div>
+                </li>
+                            <li class="oca-preparation__step">
+                    <div class="oca-preparation__media oca-preparation__media--empty" aria-hidden="true">
+                                            </div>
+                    <div class="oca-preparation__detail">
+                        <span class="oca-preparation__number" aria-hidden="true">04</span>
+                        <div class="oca-preparation__copy">
+                            <h3>Thưởng thức</h3>                            <p>Thưởng thức ly dinh dưỡng sau khi pha.</p>                        </div>
+                    </div>
+                </li>
+                    </ol>
+    </div>
 </section>
         <div class="oca-content oca-container"></div>
     </main>
