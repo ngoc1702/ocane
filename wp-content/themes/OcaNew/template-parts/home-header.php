@@ -15,18 +15,14 @@ if (!defined('ABSPATH')) {
                 $tag = empty($item['url']) ? 'span' : 'a';
                 ?>
                 <<?php echo $tag; ?> class="oca-topbar__item oca-topbar__item--<?php echo esc_attr($key); ?>"<?php if ('a' === $tag) : ?> href="<?php echo esc_url($item['url']); ?>"<?php endif; ?>>
-                    <?php if (!empty($item['icon'])) : ?>
-                        <?php echo wp_get_attachment_image(absint($item['icon']), 'full', false, array('class' => 'oca-topbar__icon', 'alt' => '', 'aria-hidden' => 'true')); ?>
-                    <?php else : ?>
-                        <svg class="oca-topbar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="<?php echo esc_attr($default['path']); ?>"/></svg>
-                    <?php endif; ?>
+                    <?php echo oca_home_top_icon($key, $item, $default, 'oca-topbar__icon'); ?>
                     <span><?php echo esc_html($item['label']); ?></span>
                 </<?php echo $tag; ?>>
             <?php endforeach; ?>
         </div>
     </div>
     <div class="oca-container oca-header__inner">
-        <a class="oca-logo" href="<?php echo esc_url(home_url('/')); ?>" aria-label="OcaNew nut — Trang chủ">
+        <a class="oca-logo" href="#trang-chu" aria-label="OcaNew nut — Trang chủ">
             <?php $logo = absint(oca_home_field('oca_home_logo'));
             if ($logo) {
                 echo wp_get_attachment_image($logo, 'full', false, array('loading' => 'eager', 'alt' => 'OcaNew nut', 'class' => 'oca-logo__image'));
@@ -38,5 +34,11 @@ if (!defined('ABSPATH')) {
         <nav id="oca-navigation" class="oca-navigation" aria-label="Điều hướng chính">
             <?php wp_nav_menu(array('theme_location' => 'oca_landing', 'container' => false, 'menu_class' => 'oca-menu', 'fallback_cb' => 'oca_home_default_menu', 'depth' => 2)); ?>
         </nav>
+        <?php $contact_label = oca_home_text('oca_header_contact_label', 'Liên hệ');
+        $contact_url = oca_home_text('oca_header_contact_url', '#hoi-chuyen-gia');
+        if ($contact_label && $contact_url) : ?>
+            <a class="oca-button oca-header__contact" href="<?php echo esc_url($contact_url); ?>"><?php echo esc_html($contact_label); ?><span class="oca-button__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></a>
+        <?php endif; ?>
     </div>
 </header>
+<div class="oca-header-space" aria-hidden="true"></div>

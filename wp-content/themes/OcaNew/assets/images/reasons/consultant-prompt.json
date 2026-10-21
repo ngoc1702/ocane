@@ -1,0 +1,8 @@
+{
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "prompt": "Edit target: image 1, a green outline doctor/nutrition consultant seated at a desk. Style/color reference ONLY: image 2, the blue outline microscope icon. Recreate the doctor at desk symbol as a clean blue outline website icon matching image 2's rounded strokes, consistent medium line weight, simple uncluttered details, and exact blue color (#1765ad). Preserve the recognizable front-facing professional with glasses, coat, desk and small desk objects. Remove all white or colored background and interior fills: true transparent alpha background, including enclosed areas. No text, no letters, no extra symbols, no shadows, no gradients, no border or tile. Entire symbol fully visible, centered on a square canvas with about 8% clear padding, balanced silhouette matching the reference icon's visual size. Crisp anti-aliased blue strokes, readable at 64px.",
+  "source_attachment": 65,
+  "result": "exec-5d239574-1a2d-44d5-8326-f19e0adfec5e.png",
+  "asset": "consultant.webp"
+}

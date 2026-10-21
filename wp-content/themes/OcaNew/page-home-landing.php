@@ -31,10 +31,16 @@ if (is_object($caia_social)) {
     <?php while (have_posts()) : the_post(); ?>
         <?php get_template_part('template-parts/home-banner'); ?>
         <?php get_template_part('template-parts/home-about'); ?>
+        <?php get_template_part('template-parts/home-reasons'); ?>
+        <?php get_template_part('template-parts/home-ingredients'); ?>
         <?php get_template_part('template-parts/home-preparation'); ?>
+        <?php get_template_part('template-parts/home-improvement'); ?>
+        <?php get_template_part('template-parts/home-faq'); ?>
         <div class="oca-content oca-container"><?php the_content(); ?></div>
+        <?php get_template_part('template-parts/home-expert'); ?>
     <?php endwhile; ?>
 </main>
+<?php get_template_part('template-parts/home-footer'); ?>
 <?php wp_footer(); ?>
 </body>
 </html>

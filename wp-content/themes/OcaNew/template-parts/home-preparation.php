@@ -3,7 +3,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 $background = absint(oca_home_field('oca_preparation_background'));
-$eyebrow = oca_home_text('oca_preparation_eyebrow', 'Quy trình pha OcaNew');
+$description = oca_home_text('oca_preparation_description', 'Chuẩn bị ly và dụng cụ sạch, thực hiện lần lượt 4 bước dưới đây. Lượng bột, lượng nước và nhiệt độ pha theo hướng dẫn trên bao bì sản phẩm.');
 $title = oca_home_text('oca_preparation_title', '4 bước đơn giản cho ly dinh dưỡng thơm ngon');
 $overlay = function_exists('get_field') ? get_field('oca_preparation_overlay') : null;
 $overlay = is_numeric($overlay) ? min(100, max(0, (int) $overlay)) : 75;
@@ -14,8 +14,8 @@ $overlay = is_numeric($overlay) ? min(100, max(0, (int) $overlay)) : 75;
     <?php endif; ?>
     <div class="oca-container oca-preparation__inner">
         <div class="oca-preparation__heading">
-            <?php if ($eyebrow) : ?><p class="oca-preparation__eyebrow"><?php echo esc_html($eyebrow); ?></p><?php endif; ?>
             <?php if ($title) : ?><h2 class="oca-preparation__title"><?php echo esc_html($title); ?></h2><?php endif; ?>
+            <?php if ($description) : ?><p class="oca-preparation__description"><?php echo nl2br(esc_html($description)); ?></p><?php endif; ?>
         </div>
         <ol class="oca-preparation__steps">
             <?php foreach (oca_home_preparation_steps() as $index => $defaults) :

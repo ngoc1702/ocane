@@ -1,0 +1,25 @@
+{
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "prompt": "Edit this exact uploaded icon. Remove the entire white/off-white textured background, including white empty areas enclosed inside the blue strokes, making all such background areas truly transparent. Preserve the existing blue icon shape, symbol, stroke weights, proportions, blue color, and all details faithfully. Do not redesign, do not add any text, shadow, border, tile, or new elements. Keep the entire icon fully visible without cropping any tips or strokes; center it on a square transparent canvas with a clean even 8% transparent margin on all sides. Crisp anti-aliased edges, intended to be legible as a 64px website icon on a pale gray section.",
+  "assets": [
+    {
+      "name": "award.webp",
+      "source": "blue-rosette-award-badge-icon.png",
+      "result": "exec-2d9b2d39-c354-4505-bb76-be0fe9771e70.png",
+      "original_attachment": 49
+    },
+    {
+      "name": "research.webp",
+      "source": "blue-microscope-and-molecular-icon.png",
+      "result": "exec-1a0f4a02-ad9d-40a6-abd9-124f004a4573.png",
+      "original_attachment": 50
+    },
+    {
+      "name": "knowledge.webp",
+      "source": "open-book-with-lightbulb-icon.png",
+      "result": "exec-690d5eaa-47fe-4e39-83b7-cc287e2b911f.png",
+      "original_attachment": 53
+    }
+  ]
+}

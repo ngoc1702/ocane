@@ -1,0 +1,25 @@
+{
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "name": "powder",
+      "prompt": "Photorealistic instructional food photograph for one step in a four-photo powdered nut milk preparation series. Landscape 16:9 composition. Same setting for every image: simple modern home kitchen, matte warm ivory countertop, softly blurred cream wall, soft daylight from left, clear straight-sided cylindrical drinking glass with a subtly thick flat base centered in frame, natural muted beige palette, eye-level three-quarter close-up, 50mm lens. Authentic practical everyday food photography with realistic materials, restrained contrast, slight natural texture. Main action clearly legible at thumbnail size. No branding, no words, no labels, no package, no AI fantasy, no CGI gloss, no decorative splashes, no floating ingredients, no excessive props. A cropped adult hand tips a small plain dry measuring scoop of fine pale beige nut milk powder into an otherwise empty clean glass. A little powder is falling naturally from the scoop, with a modest mound already at bottom. Only this first powder step, no liquid yet. Realistic hand anatomy.",
+      "generated_path": "C:/Users/ngocd/.codex/generated_images/01a156d8-430f-7ed2-87dd-ac677eef622a/exec-404cc682-6fd8-4162-88e4-7a9135235e8c.png"
+    },
+    {
+      "name": "water",
+      "prompt": "Photorealistic instructional food photograph for one step in a four-photo powdered nut milk preparation series. Landscape 16:9 composition. Same setting for every image: simple modern home kitchen, matte warm ivory countertop, softly blurred cream wall, soft daylight from left, clear straight-sided cylindrical drinking glass with a subtly thick flat base centered in frame, natural muted beige palette, eye-level three-quarter close-up, 50mm lens. Authentic practical everyday food photography with realistic materials, restrained contrast, slight natural texture. Main action clearly legible at thumbnail size. No branding, no words, no labels, no package, no AI fantasy, no CGI gloss, no decorative splashes, no floating ingredients, no excessive props. A small plain clear glass jug held just outside the top right crop pours a thin natural stream of warm clear water into the glass containing a modest layer of pale beige powder. Glass about halfway filled, powder naturally beginning to disperse near bottom. No visible boiling steam, no spoon.",
+      "generated_path": "C:/Users/ngocd/.codex/generated_images/01a156d8-430f-7ed2-87dd-ac677eef622a/exec-9131fbb2-e371-459b-a87b-b7bca51d6bb5.png"
+    },
+    {
+      "name": "stir",
+      "prompt": "Photorealistic instructional food photograph for one step in a four-photo powdered nut milk preparation series. Landscape 16:9 composition. Same setting for every image: simple modern home kitchen, matte warm ivory countertop, softly blurred cream wall, soft daylight from left, clear straight-sided cylindrical drinking glass with a subtly thick flat base centered in frame, natural muted beige palette, eye-level three-quarter close-up, 50mm lens. Authentic practical everyday food photography with realistic materials, restrained contrast, slight natural texture. Main action clearly legible at thumbnail size. No branding, no words, no labels, no package, no AI fantasy, no CGI gloss, no decorative splashes, no floating ingredients, no excessive props. A cropped adult hand gently stirs a glass of pale creamy beige nut milk with a simple stainless steel teaspoon. Spoon immersed in the drink, glass about three-quarters full, subtle realistic small surface ripples. No pouring vessel, no flying liquid, anatomically natural hand.",
+      "generated_path": "C:/Users/ngocd/.codex/generated_images/01a156d8-430f-7ed2-87dd-ac677eef622a/exec-f7c28e03-fefb-4c1b-bc4d-c55a0efe3429.png"
+    },
+    {
+      "name": "ready",
+      "prompt": "Photorealistic instructional food photograph for one step in a four-photo powdered nut milk preparation series. Landscape 16:9 composition. Same setting for every image: simple modern home kitchen, matte warm ivory countertop, softly blurred cream wall, soft daylight from left, clear straight-sided cylindrical drinking glass with a subtly thick flat base centered in frame, natural muted beige palette, eye-level three-quarter close-up, 50mm lens. Authentic practical everyday food photography with realistic materials, restrained contrast, slight natural texture. Main action clearly legible at thumbnail size. No branding, no words, no labels, no package, no AI fantasy, no CGI gloss, no decorative splashes, no floating ingredients, no excessive props. Finished glass of smoothly mixed pale creamy beige nut milk, three-quarters full, ready to enjoy. A clean stainless teaspoon rests neatly to the right on the countertop. Very subtle few tiny bubbles on the milk surface, realistic inviting drink, no hands, no powder mound, no splashes.",
+      "generated_path": "C:/Users/ngocd/.codex/generated_images/01a156d8-430f-7ed2-87dd-ac677eef622a/exec-58683fa4-85cb-4ec8-a8a6-84627ff06c8a.png"
+    }
+  ]
+}

@@ -21,7 +21,7 @@ $highlight = $text('oca_hero_highlight', 'trọn vẹn yêu thương.');
 $description = $text('oca_hero_description', 'Cùng OcaNew nut tìm hiểu và lựa chọn sản phẩm dinh dưỡng phù hợp cho bạn và gia đình.');
 $button = $text('oca_hero_button', 'Khám phá sản phẩm');
 ?>
-<section class="oca-hero oca-hero--with-background<?php echo $background ? '' : ' oca-hero--brand-background'; ?>" aria-labelledby="oca-hero-title">
+<section id="trang-chu" class="oca-hero oca-hero--with-background<?php echo $background ? '' : ' oca-hero--brand-background'; ?>" aria-labelledby="oca-hero-title">
     <?php if ($background) : ?>
         <?php echo wp_get_attachment_image($background, 'full', false, array('class' => 'oca-hero__background', 'alt' => '', 'aria-hidden' => 'true', 'loading' => 'eager', 'fetchpriority' => 'high', 'sizes' => '100vw')); ?>
     <?php else : ?>

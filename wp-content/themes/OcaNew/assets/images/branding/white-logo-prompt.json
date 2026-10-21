@@ -1,0 +1,7 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Edit this exact OcaNew Nut brand logo into a white-wordmark variant for a blue website footer. Preserve the original OcaNew serif wordmark letter shapes, spelling, spacing, proportions and placement exactly, changing only the brown/gold OcaNew lettering to solid pure white (#FFFFFF). Keep the small gold Nut shield badge in its original position, colors, shape and original Nut lettering with green leaves, without redesign. Remove the entire white/offwhite background into genuine transparent alpha, including spaces and holes between letters. No new elements, no shadows, no blue backdrop, no box, no extra text. Maintain the original wide landscape logo aspect ratio with a small transparent safe margin, entire wordmark and badge visible, crisp clean edges. This is a faithful recolor of a supplied brand asset, not a new logo.",
+  "source": "wp-content/uploads/2026/10/orcar-new-22-cv-03.png",
+  "result": "exec-41ced965-7593-401d-91f6-7e6ca4c08238.png",
+  "transparent_background": true
+}

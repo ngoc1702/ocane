@@ -78,23 +78,23 @@ function caia_enqueue_taxi_landing_assets() {
         );
     }
 }
-//Cho phép upload ảnh định dạng Svg
-// Đồng bộ favicon với nhận diện Green SM trên toàn website nếu chưa thiết lập Site Icon.
-add_action('wp_head', 'caia_xanh_go_favicon', 99);
-add_action('admin_head', 'caia_xanh_go_favicon', 99);
-function caia_xanh_go_favicon() {
+// Use OcaNew artwork as fallback; WordPress Site Icon remains editable in CMS.
+add_action('wp_head', 'caia_ocanew_favicon', 99);
+add_action('admin_head', 'caia_ocanew_favicon', 99);
+add_action('login_head', 'caia_ocanew_favicon', 99);
+function caia_ocanew_favicon() {
+    echo '<meta name="theme-color" content="#1765ad">' . "\n";
     if ( function_exists( 'has_site_icon' ) && has_site_icon() ) {
         return;
     }
 
-    $icon_dir = get_stylesheet_directory_uri() . '/assets/images/taxi/';
+    $icon_dir = get_stylesheet_directory_uri() . '/assets/images/branding/';
     ?>
-    <link rel="icon" type="image/svg+xml" href="<?php echo esc_url($icon_dir . 'favicon-xanh-go.svg'); ?>">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo esc_url($icon_dir . 'favicon-xanh-go-32.png'); ?>">
-    <link rel="icon" type="image/png" sizes="192x192" href="<?php echo esc_url($icon_dir . 'favicon-xanh-go-192.png'); ?>">
-    <link rel="icon" type="image/png" sizes="512x512" href="<?php echo esc_url($icon_dir . 'favicon-xanh-go-512.png'); ?>">
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo esc_url($icon_dir . 'favicon-xanh-go-180.png'); ?>">
-    <meta name="theme-color" content="#28bdbf">
+    <link rel="icon" type="image/x-icon" href="<?php echo esc_url($icon_dir . 'favicon-nut.ico'); ?>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo esc_url($icon_dir . 'favicon-nut-32.png'); ?>">
+    <link rel="icon" type="image/png" sizes="192x192" href="<?php echo esc_url($icon_dir . 'favicon-nut-192.png'); ?>">
+    <link rel="icon" type="image/png" sizes="512x512" href="<?php echo esc_url($icon_dir . 'favicon-nut-512.png'); ?>">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo esc_url($icon_dir . 'favicon-nut-180.png'); ?>">
     <?php
 }
 
